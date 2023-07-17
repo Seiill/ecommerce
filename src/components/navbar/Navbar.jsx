@@ -2,7 +2,7 @@ import React from 'react';
 import Search from '@mui/icons-material/Search';
 import AddShoppingCart from '@mui/icons-material/AddShoppingCart';
 import { Badge } from '@mui/material';
-import { Container, Left, Right, Center, Wrapper, Lenguage, Input, SearchContainer, Logo, MenuItem} from './NavbarElements'
+import { Container, Left, Right, Center, Wrapper, Lenguage, Input, SearchContainer, Logo, MenuItem  ,Link} from './NavbarElements'
 
 
 
@@ -18,14 +18,14 @@ const Navbar = () => {
           </SearchContainer>
         </Left>
         <Center>
-          <Logo>ECMM.</Logo>
+          <Logo>EQUILIBRIUM</Logo>
         </Center>
         <Right>
-          <MenuItem>REGISTER</MenuItem>
-          <MenuItem>SING IN</MenuItem>
+          <MenuItem to="/Register">REGISTER</MenuItem>
+          <MenuItem to="/Login">SING IN</MenuItem>
           <MenuItem>
           <Badge badgeContent={4} color="primary">
-          <AddShoppingCart/>
+          <Link to="/Cart"><AddShoppingCart /></Link>
           </Badge>
           
           </MenuItem>

@@ -3,7 +3,7 @@ import {Container} from '../annoucement/AnnoucementElements'
 const Annoucement = () => {
   return (
     <Container>
-        Hello World
+        For SALE 50% OFF
     </Container>
   )
 }

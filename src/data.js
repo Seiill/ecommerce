@@ -2,8 +2,8 @@ export const sliderItems=[
     {
         id: 1,
         img: "https://images.pexels.com/photos/1921168/pexels-photo-1921168.jpeg?cs=srgb&dl=pexels-kourosh-qaffari-1921168.jpg&fm=jpg",
-        title: "SUMMER SALE",
-        description: "DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS",
+        title: "¿PORQUÉ NO?",
+        description: "SEGUIR SINTIENDOTE CÓMODO, SIN PERDER TU GENIALIDAD. ¡HAZLO POSIBLE! ",
         bg:"f5fafd"
     },
     {
